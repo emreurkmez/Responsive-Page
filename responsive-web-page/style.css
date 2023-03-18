@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text-bold{
+    font-weight: bold;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: 'Roboto Slab', serif;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    background-color: rgb(79, 71, 62);
+    color: aliceblue;
+    padding: 30px;
+}
+#title{
+    font-size: 3rem;
+    text-align: center;
+}
+#sub-title{
+    margin: 10px auto;
+}
+
+
+
+
+#img-div{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+#image{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.tribute-info-list{
+    list-style: none;
+}
+.tribute-info-list li{
+    margin-top: 20px;
+}
+#tribute-info-heading{
+    text-align: center;
+}
+.tribute-info-link{
+    font-size: 1rem;
+    margin: 40px auto;
+    text-align: center;
+}
+.tribute-info-link a{
+    text-decoration: none;
+    color: aqua;
+}
+.tribute-info-link a:hover{
+    color: brown;
+}
